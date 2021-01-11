@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ores/lapis/sturdy_lapis",
+    "#forge:ores/lapis/solid_lapis"
+  ]
+}

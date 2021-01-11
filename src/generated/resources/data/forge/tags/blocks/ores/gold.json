@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ores/gold/hard_gold",
+    "#forge:ores/gold/sturdy_gold",
+    "#forge:ores/gold/solid_gold"
+  ]
+}

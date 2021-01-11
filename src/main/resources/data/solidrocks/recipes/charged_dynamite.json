@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RDR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "D": {
+      "item": "solidrocks:dynamite"
+    }
+  },
+  "result": {
+    "item": "solidrocks:charged_dynamite",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ores/coal/loose_coal",
+    "#forge:ores/coal/hard_coal",
+    "#forge:ores/coal/sturdy_coal"
+  ]
+}

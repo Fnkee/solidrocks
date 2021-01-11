@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "solidrocks:block/solid_redstone_ore"
+  }
+}

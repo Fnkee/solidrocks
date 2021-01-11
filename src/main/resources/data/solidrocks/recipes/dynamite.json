@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M",
+    "G",
+    "B"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:bone_meal"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "B": {
+      "item": "minecraft:sugar_cane"
+    }
+  },
+  "result": {
+    "item": "solidrocks:dynamite",
+    "count": 2
+  }
+}

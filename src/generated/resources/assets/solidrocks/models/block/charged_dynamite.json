@@ -1,0 +1,6 @@
+{
+  "parent": "solidrocks:block/template_dynamite",
+  "textures": {
+    "dynamite": "solidrocks:block/charged_dynamite"
+  }
+}

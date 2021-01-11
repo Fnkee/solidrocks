@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "solidrocks:dirt_pile"
+    }
+  },
+  "result": {
+    "item": "minecraft:dirt"
+  }
+}

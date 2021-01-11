@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:stone/loose_stone",
+    "#forge:stone/hard_stone",
+    "#forge:stone/sturdy_stone",
+    "#forge:stone/solid_stone"
+  ]
+}

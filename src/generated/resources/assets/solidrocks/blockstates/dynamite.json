@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "face=floor,facing=north": {
+      "model": "solidrocks:block/dynamite"
+    },
+    "face=wall,facing=north": {
+      "model": "solidrocks:block/dynamite",
+      "x": 90
+    },
+    "face=ceiling,facing=north": {
+      "model": "solidrocks:block/dynamite",
+      "x": 180,
+      "y": 180
+    },
+    "face=floor,facing=south": {
+      "model": "solidrocks:block/dynamite",
+      "y": 180
+    },
+    "face=wall,facing=south": {
+      "model": "solidrocks:block/dynamite",
+      "x": 90,
+      "y": 180
+    },
+    "face=ceiling,facing=south": {
+      "model": "solidrocks:block/dynamite",
+      "x": 180
+    },
+    "face=floor,facing=west": {
+      "model": "solidrocks:block/dynamite",
+      "y": 270
+    },
+    "face=wall,facing=west": {
+      "model": "solidrocks:block/dynamite",
+      "x": 90,
+      "y": 270
+    },
+    "face=ceiling,facing=west": {
+      "model": "solidrocks:block/dynamite",
+      "x": 180,
+      "y": 90
+    },
+    "face=floor,facing=east": {
+      "model": "solidrocks:block/dynamite",
+      "y": 90
+    },
+    "face=wall,facing=east": {
+      "model": "solidrocks:block/dynamite",
+      "x": 90,
+      "y": 90
+    },
+    "face=ceiling,facing=east": {
+      "model": "solidrocks:block/dynamite",
+      "x": 180,
+      "y": 270
+    }
+  }
+}
