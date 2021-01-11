@@ -34,7 +34,7 @@ logoFile="examplemod.png" #optional
 authors="Fnkee" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Making spelunking harder since 2021. Quite literally.
+Making spelunking harder since 2021.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.solidrocks]] #optional
