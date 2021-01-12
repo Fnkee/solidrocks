@@ -1,0 +1,32 @@
+{
+  "parent": "solidrocks:recipes/root",
+  "rewards": {
+    "recipes": [
+      "solidrocks:iron_ingot_from_raw_iron"
+    ]
+  },
+  "criteria": {
+    "has_raw_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "solidrocks:raw_iron"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "solidrocks:iron_ingot_from_raw_iron"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_iron",
+      "has_the_recipe"
+    ]
+  ]
+}
