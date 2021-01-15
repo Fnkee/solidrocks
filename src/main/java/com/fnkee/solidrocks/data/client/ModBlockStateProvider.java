@@ -46,8 +46,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
 		simpleBlock(ModBlocks.SOLID_LAPIS_ORE.get());
 
 		//Other
-		//simpleBlock(ModBlocks.DYNAMITE.get());
-		//simpleBlock(ModBlocks.DYNAMITE.get(), models().torch("dynamite", mcLoc("block/torch")));
+		simpleBlock(ModBlocks.FLIMSY_TORCH.get(), models().singleTexture("flimsy_torch", mcLoc("block/template_torch"), "torch", modLoc("block/flimsy_torch")));
+		simpleBlock(ModBlocks.USED_TORCH.get(), models().singleTexture("used_torch", modLoc("block/template_used_torch"), "torch", modLoc("block/used_torch")));
+		simpleBlock(ModBlocks.SMOLDERING_TORCH.get(), models().singleTexture("smoldering_torch", modLoc("block/template_smoldering_torch"), "torch", modLoc("block/smoldering_torch")));
+		simpleBlock(ModBlocks.BURNT_OUT_TORCH.get(), models().singleTexture("burnt_out_torch", modLoc("block/template_burnt_out_torch"), "torch", modLoc("block/burnt_out_torch")));
 		
 		horizontalFaceBlock(ModBlocks.DYNAMITE.get(), models().singleTexture("dynamite", modLoc("block/template_dynamite"), "dynamite", modLoc("block/dynamite")));
 		horizontalFaceBlock(ModBlocks.CHARGED_DYNAMITE.get(), models().singleTexture("charged_dynamite", modLoc("block/template_dynamite"), "dynamite", modLoc("block/charged_dynamite")));

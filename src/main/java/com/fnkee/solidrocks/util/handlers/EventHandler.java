@@ -22,5 +22,9 @@ public class EventHandler {
 	public static void clientRegister() {
 		//SolidRocks.LOGGER.info("clientRegisterStuff");
 		RenderTypeLookup.setRenderLayer(ModBlocks.DYNAMITE.get(), RenderType.getCutout());
+		//RenderTypeLookup.setRenderLayer(ModBlocks.FLIMSY_TORCH.get(), RenderType.getCutout());
+		RenderTypeLookup.setRenderLayer(ModBlocks.USED_TORCH.get(), RenderType.getCutout());
+		RenderTypeLookup.setRenderLayer(ModBlocks.SMOLDERING_TORCH.get(), RenderType.getCutout());
+		RenderTypeLookup.setRenderLayer(ModBlocks.BURNT_OUT_TORCH.get(), RenderType.getCutout());
 	}
 }

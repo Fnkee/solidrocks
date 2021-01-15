@@ -43,14 +43,18 @@ public class ModTags {
 		//Other
 		public static final ITag.INamedTag<Block> DYNAMITE = forge("dynamite");
 		public static final ITag.INamedTag<Block> CHARGED_DYNAMITE = forge("charged_dynamite");
+		public static final ITag.INamedTag<Block> FLIMSY_TORCH = forge("flimsy_torch");
+		public static final ITag.INamedTag<Block> USED_TORCH = forge("used_torch");
+		public static final ITag.INamedTag<Block> SMOLDERING_TORCH = forge("smoldering_torch");
+		public static final ITag.INamedTag<Block> BURNT_OUT_TORCH = forge("burnt_out_torch");
 		
 		private static ITag.INamedTag<Block> forge(String path) {
 	        return BlockTags.makeWrapperTag(new ResourceLocation("forge", path).toString());
 	    }
 	
-	    private static ITag.INamedTag<Block> mod(String path) {
+	    /*private static ITag.INamedTag<Block> mod(String path) {
 	        return BlockTags.makeWrapperTag(new ResourceLocation(SolidRocks.MOD_ID, path).toString());
-	    }
+	    }*/
 	}
 	
 	public static final class Items {
@@ -89,6 +93,10 @@ public class ModTags {
 		//Other
 		public static final ITag.INamedTag<Item> DYNAMITE = forge("dynamite");
 		public static final ITag.INamedTag<Item> CHARGED_DYNAMITE = forge("charged_dynamite");
+		public static final ITag.INamedTag<Item> FLIMSY_TORCH = forge("flimsy_torch");
+		public static final ITag.INamedTag<Item> USED_TORCH = forge("used_torch");
+		public static final ITag.INamedTag<Item> SMOLDERING_TORCH = forge("smoldering_torch");
+		public static final ITag.INamedTag<Item> BURNT_OUT_TORCH = forge("burnt_out_torch");
 		public static final ITag.INamedTag<Item> PEBBLE = forge("pebble");
 		public static final ITag.INamedTag<Item> DIRT_PILE = forge("dirt_pile");
 		public static final ITag.INamedTag<Item> INGOTS_SILVER = forge("ingots/silver");
@@ -97,8 +105,8 @@ public class ModTags {
 	        return ItemTags.makeWrapperTag(new ResourceLocation("forge", path).toString());
 	    }
 	
-	    private static ITag.INamedTag<Item> mod(String path) {
+	    /*private static ITag.INamedTag<Item> mod(String path) {
 	        return ItemTags.makeWrapperTag(new ResourceLocation(SolidRocks.MOD_ID, path).toString());
-	    }
+	    }*/
 	}
 }

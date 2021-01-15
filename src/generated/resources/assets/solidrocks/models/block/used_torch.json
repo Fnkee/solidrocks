@@ -1,0 +1,6 @@
+{
+  "parent": "solidrocks:block/template_used_torch",
+  "textures": {
+    "torch": "solidrocks:block/used_torch"
+  }
+}

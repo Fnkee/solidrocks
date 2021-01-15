@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "solidrocks:block/smoldering_torch"
+    }
+  }
+}

@@ -67,5 +67,9 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
 
 		getOrCreateBuilder(ModTags.Blocks.DYNAMITE).add(ModBlocks.DYNAMITE.get());
 		getOrCreateBuilder(ModTags.Blocks.CHARGED_DYNAMITE).add(ModBlocks.CHARGED_DYNAMITE.get());
+		getOrCreateBuilder(ModTags.Blocks.FLIMSY_TORCH).add(ModBlocks.FLIMSY_TORCH.get());
+		getOrCreateBuilder(ModTags.Blocks.USED_TORCH).add(ModBlocks.USED_TORCH.get());
+		getOrCreateBuilder(ModTags.Blocks.SMOLDERING_TORCH).add(ModBlocks.SMOLDERING_TORCH.get());
+		getOrCreateBuilder(ModTags.Blocks.BURNT_OUT_TORCH).add(ModBlocks.BURNT_OUT_TORCH.get());
 	}
 }

@@ -2,8 +2,10 @@ package com.fnkee.solidrocks.setup;
 
 import java.util.function.Supplier;
 
+import com.fnkee.solidrocks.blocks.BurntOutTorchBlock;
 import com.fnkee.solidrocks.blocks.ChargedDynamiteBlock;
 import com.fnkee.solidrocks.blocks.DynamiteBlock;
+import com.fnkee.solidrocks.blocks.FlimsyTorchBlock;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -11,11 +13,14 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.OreBlock;
 import net.minecraft.block.RedstoneOreBlock;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.WallTorchBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.WallOrFloorItem;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 
@@ -76,11 +81,33 @@ public class ModBlocks {
 	public static final RegistryObject<Block> SOLID_LAPIS_ORE = register("solid_lapis_ore", () ->
 		new OreBlock(AbstractBlock.Properties.from(Blocks.LAPIS_ORE).setRequiresTool().harvestTool(ToolType.PICKAXE).harvestLevel(2).hardnessAndResistance(HRD_SOLID, RES_STURDY)));
 	
-	//Other
+	//Dynamite
 	public static final RegistryObject<Block> DYNAMITE = register("dynamite", () ->
 		new DynamiteBlock(Block.Properties.create(Material.MISCELLANEOUS, MaterialColor.TNT).sound(SoundType.BAMBOO).doesNotBlockMovement().zeroHardnessAndResistance())); //Used to have 1 in RES
 	public static final RegistryObject<Block> CHARGED_DYNAMITE = register("charged_dynamite", () ->
 		new ChargedDynamiteBlock(Block.Properties.create(Material.MISCELLANEOUS, MaterialColor.TNT).sound(SoundType.BAMBOO).doesNotBlockMovement().zeroHardnessAndResistance()));
+	
+	//Torches
+	
+	/*public static final FlimsyTorchBlock FLIMSY_TORCH = new FlimsyTorchBlock(Block.Properties.from(Blocks.TORCH).tickRandomly().setLightLevel((state) -> {
+    return 14;
+ }), ParticleTypes.FLAME, 3);*/
+	public static final RegistryObject<Block> FLIMSY_TORCH = register("flimsy_torch", () ->
+		new FlimsyTorchBlock(Block.Properties.from(Blocks.TORCH).tickRandomly().setLightLevel((state) -> {
+		      return 14;
+		   }), ParticleTypes.FLAME, 3));
+	public static final RegistryObject<Block> USED_TORCH = register("used_torch", () ->
+		new FlimsyTorchBlock(Block.Properties.from(Blocks.TORCH).tickRandomly().setLightLevel((state) -> {
+		      return 11;
+		   }), ParticleTypes.FLAME, 2));
+	public static final RegistryObject<Block> SMOLDERING_TORCH = register("smoldering_torch", () ->
+		new FlimsyTorchBlock(Block.Properties.from(Blocks.TORCH).tickRandomly().setLightLevel((state) -> {
+			return 7;
+		}), ParticleTypes.SMOKE, 1));
+	public static final RegistryObject<Block> BURNT_OUT_TORCH = register("burnt_out_torch", () ->
+		new BurntOutTorchBlock(Block.Properties.from(Blocks.TORCH).setLightLevel((state) -> {
+			return 0;
+		}), null));
 	
 	static void register() {}
 	

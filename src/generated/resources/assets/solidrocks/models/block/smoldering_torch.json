@@ -1,0 +1,6 @@
+{
+  "parent": "solidrocks:block/template_smoldering_torch",
+  "textures": {
+    "torch": "solidrocks:block/smoldering_torch"
+  }
+}

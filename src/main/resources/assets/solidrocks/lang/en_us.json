@@ -24,5 +24,9 @@
  "block.solidrocks.sturdy_lapis_ore": "Sturdy Lapis Ore",
  "block.solidrocks.solid_lapis_ore": "Solid Lapis Ore",
  "block.solidrocks.dynamite": "Dynamite",
-  "block.solidrocks.charged_dynamite": "Charged Dynamite"
+ "block.solidrocks.charged_dynamite": "Charged Dynamite",
+ "block.solidrocks.flimsy_torch": "Flimsy Torch",
+ "block.solidrocks.used_torch": "Used Torch",
+ "block.solidrocks.smoldering_torch": "Smoldering Torch",
+ "block.solidrocks.burnt_out_torch": "Burnt Out Torch"
 }

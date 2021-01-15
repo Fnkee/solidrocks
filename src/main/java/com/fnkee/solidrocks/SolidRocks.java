@@ -33,7 +33,7 @@ public class SolidRocks {
 //Add loot tables for all ores
 //Make guaranteed gunpowder drop from creepers?
 //Emerald needs a block
-//Lava on water turns water to Old Stone
+//Lava on water turns water into Old Stone
 //Fix states in chain explosion, and ensure explosion even though block breaks behind dynamite
 //Monster in the deep?
 //Find a way to break tools earlier. Change how long they last.

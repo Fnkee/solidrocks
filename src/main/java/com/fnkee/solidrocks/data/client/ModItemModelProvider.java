@@ -48,8 +48,12 @@ public class ModItemModelProvider extends ItemModelProvider {
 
 		withExistingParent("dynamite", modLoc("block/dynamite"));
 		withExistingParent("charged_dynamite", modLoc("block/charged_dynamite"));
+		withExistingParent("flimsy_torch", modLoc("block/flimsy_torch"));
+		withExistingParent("used_torch", modLoc("block/used_torch"));
+		withExistingParent("smoldering_torch", modLoc("block/smoldering_torch"));
+		withExistingParent("burnt_out_torch", modLoc("block/burnt_out_torch"));
 		
-		ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));		
+		ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));	
 		
 		builder(itemGenerated, "silver_ingot");
 		builder(itemGenerated, "pebble");
