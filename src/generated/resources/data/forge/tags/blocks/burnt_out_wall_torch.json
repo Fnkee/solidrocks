@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "solidrocks:burnt_out_torch",
     "solidrocks:burnt_out_wall_torch"
   ]
 }

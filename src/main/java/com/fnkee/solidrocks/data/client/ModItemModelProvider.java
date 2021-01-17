@@ -48,10 +48,15 @@ public class ModItemModelProvider extends ItemModelProvider {
 
 		withExistingParent("dynamite", modLoc("block/dynamite"));
 		withExistingParent("charged_dynamite", modLoc("block/charged_dynamite"));
+		
 		withExistingParent("flimsy_torch", modLoc("block/flimsy_torch"));
 		withExistingParent("used_torch", modLoc("block/used_torch"));
 		withExistingParent("smoldering_torch", modLoc("block/smoldering_torch"));
 		withExistingParent("burnt_out_torch", modLoc("block/burnt_out_torch"));
+		//withExistingParent("flimsy_wall_torch", modLoc("block/flimsy_torch"));
+		//withExistingParent("used_wall_torch", modLoc("block/used_torch"));
+		//withExistingParent("smoldering_wall_torch", modLoc("block/smoldering_torch"));
+		//withExistingParent("burnt_out_wall_torch", modLoc("block/burnt_out_torch"));
 		
 		ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));	
 		
@@ -62,6 +67,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 		builder(itemGenerated, "charged_dynamite");
 		builder(itemGenerated, "raw_iron");
 		builder(itemGenerated, "raw_gold");
+		
+		getBuilder("flimsy_wall_torch").parent(itemGenerated).texture("layer0", "block/flimsy_torch");
+		getBuilder("used_wall_torch").parent(itemGenerated).texture("layer0", "block/used_torch");
+		getBuilder("smoldering_wall_torch").parent(itemGenerated).texture("layer0", "block/smoldering_torch");
+		getBuilder("burnt_out_wall_torch").parent(itemGenerated).texture("layer0", "block/burnt_out_torch");
 	}
 	
 	private ItemModelBuilder builder(ModelFile itemGenerated, String name) {

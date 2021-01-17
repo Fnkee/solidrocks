@@ -71,5 +71,10 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
 		getOrCreateBuilder(ModTags.Blocks.USED_TORCH).add(ModBlocks.USED_TORCH.get());
 		getOrCreateBuilder(ModTags.Blocks.SMOLDERING_TORCH).add(ModBlocks.SMOLDERING_TORCH.get());
 		getOrCreateBuilder(ModTags.Blocks.BURNT_OUT_TORCH).add(ModBlocks.BURNT_OUT_TORCH.get());
+		//Below maybe not needed?
+		getOrCreateBuilder(ModTags.Blocks.FLIMSY_WALL_TORCH).add(ModBlocks.FLIMSY_WALL_TORCH.get());
+		getOrCreateBuilder(ModTags.Blocks.USED_WALL_TORCH).add(ModBlocks.USED_WALL_TORCH.get());
+		getOrCreateBuilder(ModTags.Blocks.SMOLDERING_WALL_TORCH).add(ModBlocks.SMOLDERING_WALL_TORCH.get());
+		getOrCreateBuilder(ModTags.Blocks.BURNT_OUT_WALL_TORCH).add(ModBlocks.BURNT_OUT_WALL_TORCH.get());
 	}
 }

@@ -18,7 +18,13 @@ public class ModItems {
 	public static final RegistryObject<Item> DIRT_PILE = Registration.ITEMS.register("dirt_pile", () ->
 		new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
 	public static final RegistryObject<Item> FLIMSY_TORCH = Registration.ITEMS.register("flimsy_torch", () ->
-		new WallOrFloorItem(ModBlocks.FLIMSY_TORCH.get(), Blocks.WALL_TORCH, (new Item.Properties()).group(ItemGroup.DECORATIONS)));
+		new WallOrFloorItem(ModBlocks.FLIMSY_TORCH.get(), ModBlocks.FLIMSY_WALL_TORCH.get(), (new Item.Properties()).group(ItemGroup.DECORATIONS)));
+	public static final RegistryObject<Item> USED_TORCH = Registration.ITEMS.register("used_torch", () ->
+		new WallOrFloorItem(ModBlocks.USED_TORCH.get(), ModBlocks.USED_WALL_TORCH.get(), (new Item.Properties()).group(ItemGroup.DECORATIONS)));
+	public static final RegistryObject<Item> SMOLDERING_TORCH = Registration.ITEMS.register("smoldering_torch", () ->
+		new WallOrFloorItem(ModBlocks.SMOLDERING_TORCH.get(), ModBlocks.SMOLDERING_WALL_TORCH.get(), (new Item.Properties()).group(ItemGroup.DECORATIONS)));
+	public static final RegistryObject<Item> BURNT_OUT_TORCH = Registration.ITEMS.register("burnt_out_torch", () ->
+		new WallOrFloorItem(ModBlocks.BURNT_OUT_TORCH.get(), ModBlocks.BURNT_OUT_WALL_TORCH.get(), (new Item.Properties()).group(ItemGroup.DECORATIONS)));
 	
 	static void register() {}
 }

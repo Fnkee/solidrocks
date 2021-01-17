@@ -50,6 +50,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
 		simpleBlock(ModBlocks.USED_TORCH.get(), models().singleTexture("used_torch", modLoc("block/template_used_torch"), "torch", modLoc("block/used_torch")));
 		simpleBlock(ModBlocks.SMOLDERING_TORCH.get(), models().singleTexture("smoldering_torch", modLoc("block/template_smoldering_torch"), "torch", modLoc("block/smoldering_torch")));
 		simpleBlock(ModBlocks.BURNT_OUT_TORCH.get(), models().singleTexture("burnt_out_torch", modLoc("block/template_burnt_out_torch"), "torch", modLoc("block/burnt_out_torch")));
+
+		horizontalBlock(ModBlocks.FLIMSY_WALL_TORCH.get(), models().singleTexture("flimsy_wall_torch", mcLoc("block/template_torch_wall"), "torch", modLoc("block/flimsy_torch")), 90);
+		horizontalBlock(ModBlocks.USED_WALL_TORCH.get(), models().singleTexture("used_wall_torch", modLoc("block/template_used_torch_wall"), "torch", modLoc("block/used_torch")), 90);
+		horizontalBlock(ModBlocks.SMOLDERING_WALL_TORCH.get(), models().singleTexture("smoldering_wall_torch", modLoc("block/template_smoldering_torch_wall"), "torch", modLoc("block/smoldering_torch")), 90);
+		horizontalBlock(ModBlocks.BURNT_OUT_WALL_TORCH.get(), models().singleTexture("burnt_out_wall_torch", modLoc("block/template_burnt_out_torch_wall"), "torch", modLoc("block/burnt_out_torch")), 90);
 		
 		horizontalFaceBlock(ModBlocks.DYNAMITE.get(), models().singleTexture("dynamite", modLoc("block/template_dynamite"), "dynamite", modLoc("block/dynamite")));
 		horizontalFaceBlock(ModBlocks.CHARGED_DYNAMITE.get(), models().singleTexture("charged_dynamite", modLoc("block/template_dynamite"), "dynamite", modLoc("block/charged_dynamite")));

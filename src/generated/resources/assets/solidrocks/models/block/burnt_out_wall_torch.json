@@ -1,0 +1,6 @@
+{
+  "parent": "solidrocks:block/template_burnt_out_torch_wall",
+  "textures": {
+    "torch": "solidrocks:block/burnt_out_torch"
+  }
+}

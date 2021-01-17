@@ -1,0 +1,964 @@
+{
+  "variants": {
+    "age=0,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=1,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=2,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=3,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=4,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=5,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=6,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=7,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=8,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=9,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=10,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=11,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=12,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=13,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=14,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=15,facing=north,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=0,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=1,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=2,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=3,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=4,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=5,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=6,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=7,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=8,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=9,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=10,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=11,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=12,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=13,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=14,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=15,facing=south,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=0,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=1,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=2,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=3,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=4,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=5,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=6,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=7,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=8,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=9,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=10,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=11,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=12,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=13,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=14,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=15,facing=west,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=0,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=1,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=2,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=3,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=4,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=5,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=6,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=7,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=8,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=9,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=10,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=11,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=12,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=13,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=14,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=15,facing=east,level=0": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=0,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=1,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=2,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=3,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=4,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=5,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=6,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=7,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=8,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=9,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=10,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=11,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=12,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=13,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=14,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=15,facing=north,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=0,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=1,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=2,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=3,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=4,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=5,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=6,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=7,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=8,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=9,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=10,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=11,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=12,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=13,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=14,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=15,facing=south,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=0,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=1,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=2,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=3,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=4,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=5,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=6,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=7,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=8,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=9,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=10,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=11,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=12,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=13,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=14,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=15,facing=west,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=0,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=1,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=2,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=3,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=4,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=5,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=6,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=7,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=8,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=9,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=10,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=11,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=12,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=13,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=14,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=15,facing=east,level=1": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=0,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=1,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=2,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=3,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=4,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=5,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=6,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=7,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=8,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=9,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=10,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=11,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=12,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=13,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=14,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=15,facing=north,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=0,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=1,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=2,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=3,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=4,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=5,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=6,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=7,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=8,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=9,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=10,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=11,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=12,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=13,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=14,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=15,facing=south,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=0,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=1,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=2,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=3,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=4,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=5,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=6,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=7,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=8,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=9,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=10,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=11,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=12,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=13,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=14,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=15,facing=west,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=0,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=1,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=2,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=3,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=4,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=5,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=6,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=7,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=8,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=9,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=10,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=11,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=12,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=13,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=14,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=15,facing=east,level=2": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=0,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=1,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=2,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=3,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=4,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=5,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=6,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=7,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=8,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=9,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=10,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=11,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=12,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=13,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=14,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=15,facing=north,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 270
+    },
+    "age=0,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=1,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=2,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=3,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=4,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=5,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=6,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=7,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=8,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=9,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=10,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=11,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=12,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=13,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=14,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=15,facing=south,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 90
+    },
+    "age=0,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=1,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=2,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=3,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=4,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=5,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=6,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=7,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=8,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=9,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=10,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=11,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=12,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=13,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=14,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=15,facing=west,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch",
+      "y": 180
+    },
+    "age=0,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=1,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=2,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=3,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=4,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=5,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=6,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=7,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=8,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=9,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=10,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=11,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=12,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=13,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=14,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    },
+    "age=15,facing=east,level=3": {
+      "model": "solidrocks:block/flimsy_wall_torch"
+    }
+  }
+}

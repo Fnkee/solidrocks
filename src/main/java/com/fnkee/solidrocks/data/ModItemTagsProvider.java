@@ -47,12 +47,18 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 		copy(ModTags.Blocks.ORES_STURDY_LAPIS, ModTags.Items.ORES_STURDY_LAPIS);
 		copy(ModTags.Blocks.ORES_SOLID_LAPIS, ModTags.Items.ORES_SOLID_LAPIS);
 
+		//Other
 		copy(ModTags.Blocks.DYNAMITE, ModTags.Items.DYNAMITE);
 		copy(ModTags.Blocks.CHARGED_DYNAMITE, ModTags.Items.CHARGED_DYNAMITE);
-		copy(ModTags.Blocks.FLIMSY_TORCH, ModTags.Items.FLIMSY_TORCH); //Is it maybe this line copying registering flimsy_torch as an item as well as a block?
+		
+		copy(ModTags.Blocks.FLIMSY_TORCH, ModTags.Items.FLIMSY_TORCH);
 		copy(ModTags.Blocks.USED_TORCH, ModTags.Items.USED_TORCH);
 		copy(ModTags.Blocks.SMOLDERING_TORCH, ModTags.Items.SMOLDERING_TORCH);
 		copy(ModTags.Blocks.BURNT_OUT_TORCH, ModTags.Items.BURNT_OUT_TORCH);
+		copy(ModTags.Blocks.FLIMSY_WALL_TORCH, ModTags.Items.FLIMSY_WALL_TORCH);
+		copy(ModTags.Blocks.USED_WALL_TORCH, ModTags.Items.USED_WALL_TORCH);
+		copy(ModTags.Blocks.SMOLDERING_WALL_TORCH, ModTags.Items.SMOLDERING_WALL_TORCH);
+		copy(ModTags.Blocks.BURNT_OUT_WALL_TORCH, ModTags.Items.BURNT_OUT_WALL_TORCH);
 		
 		//Categories
 		copy(Tags.Blocks.ORES, Tags.Items.ORES);

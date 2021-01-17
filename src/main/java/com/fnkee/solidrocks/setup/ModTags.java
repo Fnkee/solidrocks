@@ -33,20 +33,25 @@ public class ModTags {
 		public static final ITag.INamedTag<Block> ORES_STURDY_GOLD = forge("ores/gold/sturdy_gold");
 		public static final ITag.INamedTag<Block> ORES_SOLID_GOLD = forge("ores/gold/solid_gold");
 
-		public static final ITag.INamedTag<Block> ORES_SOLID_DIAMOND = forge("ores/diamond/solid_diamond");
-
-		public static final ITag.INamedTag<Block> ORES_SOLID_REDSTONE = forge("ores/redstone/solid_redstone");
-
 		public static final ITag.INamedTag<Block> ORES_STURDY_LAPIS = forge("ores/lapis/sturdy_lapis");
 		public static final ITag.INamedTag<Block> ORES_SOLID_LAPIS = forge("ores/lapis/solid_lapis");
+		
+		public static final ITag.INamedTag<Block> ORES_SOLID_REDSTONE = forge("ores/redstone/solid_redstone");
+		
+		public static final ITag.INamedTag<Block> ORES_SOLID_DIAMOND = forge("ores/diamond/solid_diamond");
 		
 		//Other
 		public static final ITag.INamedTag<Block> DYNAMITE = forge("dynamite");
 		public static final ITag.INamedTag<Block> CHARGED_DYNAMITE = forge("charged_dynamite");
+		
 		public static final ITag.INamedTag<Block> FLIMSY_TORCH = forge("flimsy_torch");
 		public static final ITag.INamedTag<Block> USED_TORCH = forge("used_torch");
 		public static final ITag.INamedTag<Block> SMOLDERING_TORCH = forge("smoldering_torch");
 		public static final ITag.INamedTag<Block> BURNT_OUT_TORCH = forge("burnt_out_torch");
+		public static final ITag.INamedTag<Block> FLIMSY_WALL_TORCH = forge("flimsy_wall_torch");
+		public static final ITag.INamedTag<Block> USED_WALL_TORCH = forge("used_wall_torch");
+		public static final ITag.INamedTag<Block> SMOLDERING_WALL_TORCH = forge("smoldering_wall_torch");
+		public static final ITag.INamedTag<Block> BURNT_OUT_WALL_TORCH = forge("burnt_out_wall_torch");
 		
 		private static ITag.INamedTag<Block> forge(String path) {
 	        return BlockTags.makeWrapperTag(new ResourceLocation("forge", path).toString());
@@ -97,6 +102,10 @@ public class ModTags {
 		public static final ITag.INamedTag<Item> USED_TORCH = forge("used_torch");
 		public static final ITag.INamedTag<Item> SMOLDERING_TORCH = forge("smoldering_torch");
 		public static final ITag.INamedTag<Item> BURNT_OUT_TORCH = forge("burnt_out_torch");
+		public static final ITag.INamedTag<Item> FLIMSY_WALL_TORCH = forge("flimsy_torch");
+		public static final ITag.INamedTag<Item> USED_WALL_TORCH = forge("used_torch");
+		public static final ITag.INamedTag<Item> SMOLDERING_WALL_TORCH = forge("smoldering_torch");
+		public static final ITag.INamedTag<Item> BURNT_OUT_WALL_TORCH = forge("burnt_out_torch");
 		public static final ITag.INamedTag<Item> PEBBLE = forge("pebble");
 		public static final ITag.INamedTag<Item> DIRT_PILE = forge("dirt_pile");
 		public static final ITag.INamedTag<Item> INGOTS_SILVER = forge("ingots/silver");

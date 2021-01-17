@@ -3,9 +3,11 @@ package com.fnkee.solidrocks.setup;
 import java.util.function.Supplier;
 
 import com.fnkee.solidrocks.blocks.BurntOutTorchBlock;
+import com.fnkee.solidrocks.blocks.BurntOutWallTorchBlock;
 import com.fnkee.solidrocks.blocks.ChargedDynamiteBlock;
 import com.fnkee.solidrocks.blocks.DynamiteBlock;
 import com.fnkee.solidrocks.blocks.FlimsyTorchBlock;
+import com.fnkee.solidrocks.blocks.FlimsyWallTorchBlock;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -89,25 +91,42 @@ public class ModBlocks {
 	
 	//Torches
 	
-	/*public static final FlimsyTorchBlock FLIMSY_TORCH = new FlimsyTorchBlock(Block.Properties.from(Blocks.TORCH).tickRandomly().setLightLevel((state) -> {
-    return 14;
- }), ParticleTypes.FLAME, 3);*/
-	public static final RegistryObject<Block> FLIMSY_TORCH = register("flimsy_torch", () ->
+	public static final RegistryObject<Block> FLIMSY_TORCH = registerNoItem("flimsy_torch", () ->
 		new FlimsyTorchBlock(Block.Properties.from(Blocks.TORCH).tickRandomly().setLightLevel((state) -> {
 		      return 14;
 		   }), ParticleTypes.FLAME, 3));
-	public static final RegistryObject<Block> USED_TORCH = register("used_torch", () ->
+	public static final RegistryObject<Block> USED_TORCH = registerNoItem("used_torch", () ->
 		new FlimsyTorchBlock(Block.Properties.from(Blocks.TORCH).tickRandomly().setLightLevel((state) -> {
 		      return 11;
 		   }), ParticleTypes.FLAME, 2));
-	public static final RegistryObject<Block> SMOLDERING_TORCH = register("smoldering_torch", () ->
+	public static final RegistryObject<Block> SMOLDERING_TORCH = registerNoItem("smoldering_torch", () ->
 		new FlimsyTorchBlock(Block.Properties.from(Blocks.TORCH).tickRandomly().setLightLevel((state) -> {
 			return 7;
 		}), ParticleTypes.SMOKE, 1));
-	public static final RegistryObject<Block> BURNT_OUT_TORCH = register("burnt_out_torch", () ->
+	public static final RegistryObject<Block> BURNT_OUT_TORCH = registerNoItem("burnt_out_torch", () ->
 		new BurntOutTorchBlock(Block.Properties.from(Blocks.TORCH).setLightLevel((state) -> {
 			return 0;
 		}), null));
+	
+	
+	
+	public static final RegistryObject<Block> FLIMSY_WALL_TORCH = registerNoItem("flimsy_wall_torch", () ->
+		new FlimsyWallTorchBlock(Block.Properties.from(Blocks.WALL_TORCH).tickRandomly().setLightLevel((state) -> {
+		      return 14;
+		   }), ParticleTypes.FLAME, 3));
+	public static final RegistryObject<Block> USED_WALL_TORCH = registerNoItem("used_wall_torch", () ->
+		new FlimsyWallTorchBlock(Block.Properties.from(Blocks.WALL_TORCH).tickRandomly().setLightLevel((state) -> {
+		      return 11;
+		   }), ParticleTypes.FLAME, 2));
+	public static final RegistryObject<Block> SMOLDERING_WALL_TORCH = registerNoItem("smoldering_wall_torch", () ->
+		new FlimsyWallTorchBlock(Block.Properties.from(Blocks.WALL_TORCH).tickRandomly().setLightLevel((state) -> {
+			return 7;
+		}), ParticleTypes.SMOKE, 1));
+	public static final RegistryObject<Block> BURNT_OUT_WALL_TORCH = registerNoItem("burnt_out_wall_torch", () ->
+		new BurntOutWallTorchBlock(Block.Properties.from(Blocks.WALL_TORCH).setLightLevel((state) -> {
+			return 0;
+		}), null));
+	
 	
 	static void register() {}
 	
