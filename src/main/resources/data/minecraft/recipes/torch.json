@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M",
+    "#"
+  ],
+  "key": {
+    "M": { 
+      "item": "minecraft:magma_cream"
+    },
+    "#": {
+      "item": "solidrocks:flimsy_torch"
+    }
+  },
+  "result": {
+    "item": "minecraft:torch",
+    "count": 1
+  }
+}

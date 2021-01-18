@@ -56,13 +56,11 @@ d6f5ac177116aa5053100714494ec02f730c1fa8 assets/solidrocks/models/block/sturdy_g
 69ba114149fde9f904793ac0b6be72a09bd2f8bc assets/solidrocks/models/block/sturdy_stone.json
 e31b27834ba021801c9843ad94faf9e678b7f726 assets/solidrocks/models/block/used_torch.json
 5535a1db72428b560b6d20206ffb7b03e622d501 assets/solidrocks/models/block/used_wall_torch.json
-d7017d52594e473513711caba0dbed86b29669b6 assets/solidrocks/models/item/burnt_out_torch.json
-47022307ecb90c34df704cf32ee7fa7b61038c58 assets/solidrocks/models/item/burnt_out_wall_torch.json
+47022307ecb90c34df704cf32ee7fa7b61038c58 assets/solidrocks/models/item/burnt_out_torch.json
 3f7c6345ff18a315fd5cd241f84635d4decfc1f3 assets/solidrocks/models/item/charged_dynamite.json
 ff127622fdb3ececf1beb2af27218c8951b84501 assets/solidrocks/models/item/dirt_pile.json
 1673b48e2cc30a180b8ccecf91a6f8951433fbef assets/solidrocks/models/item/dynamite.json
-d25e2e1b2978215b1aedf502d9f1e57e3f3e1fee assets/solidrocks/models/item/flimsy_torch.json
-4fae71aa7a798b5dddb27b45d184a420e62e4305 assets/solidrocks/models/item/flimsy_wall_torch.json
+4fae71aa7a798b5dddb27b45d184a420e62e4305 assets/solidrocks/models/item/flimsy_torch.json
 58c81ec3549d576b1e16ae46157cadc9980526b2 assets/solidrocks/models/item/hard_coal_ore.json
 68a0105b1a01cc495d6f4d44b8fc94cf60969f16 assets/solidrocks/models/item/hard_gold_ore.json
 36bbd49c273407b25ecd1e69a27b24df16496b3d assets/solidrocks/models/item/hard_iron_ore.json
@@ -75,8 +73,7 @@ c36125680b3d1e21db311167a7649e020d1b0dd1 assets/solidrocks/models/item/raw_gold.
 bb9886be53a31babbef8d2b1733d3bc98cd98543 assets/solidrocks/models/item/silver_block.json
 3cacdcbda67b10b6f9fe0e10acb1d578aa3e5a82 assets/solidrocks/models/item/silver_ingot.json
 76bd2905263a481140350b49e00ac58c5f4d0969 assets/solidrocks/models/item/silver_ore.json
-53331e2476e4497ff4fc011b2c8e6cee5547112b assets/solidrocks/models/item/smoldering_torch.json
-fa65c592b128ecd482d37abb3cce52706f3dab58 assets/solidrocks/models/item/smoldering_wall_torch.json
+fa65c592b128ecd482d37abb3cce52706f3dab58 assets/solidrocks/models/item/smoldering_torch.json
 dcb9821d1481136da47665950ecb78e7da0d664e assets/solidrocks/models/item/solid_diamond_ore.json
 086d8d35ca42a94ebc681283c6d89707f5ca4262 assets/solidrocks/models/item/solid_gold_ore.json
 dcabd469bd142b32db37772087e3e3c91441f993 assets/solidrocks/models/item/solid_iron_ore.json
@@ -88,8 +85,7 @@ dc03613ce5cb5879f73b703e18b265f125a2647d assets/solidrocks/models/item/sturdy_co
 606b735f8a925f5e199245a6e284c1b3e27c6e48 assets/solidrocks/models/item/sturdy_iron_ore.json
 56e0963ee9dac04509357b4a23f6e2af525c2cae assets/solidrocks/models/item/sturdy_lapis_ore.json
 406fb293cc138100e42ce61f146613209d968951 assets/solidrocks/models/item/sturdy_stone.json
-f8c8f5f09f9f3ca009c911b40f686f8d152e7707 assets/solidrocks/models/item/used_torch.json
-a4fc8fe00ddd17d4398d244140ada7fec0e9cb2f assets/solidrocks/models/item/used_wall_torch.json
+a4fc8fe00ddd17d4398d244140ada7fec0e9cb2f assets/solidrocks/models/item/used_torch.json
 772f9e15c9031d8932f23c5f7ef0d12d90034bab data/forge/tags/blocks/burnt_out_torch.json
 a92c82932d2fc0cd83aaa5994290db0b029a3837 data/forge/tags/blocks/burnt_out_wall_torch.json
 5683d07e8f21f8e8fb5f994c027f24c4ad9d3c5e data/forge/tags/blocks/charged_dynamite.json
@@ -128,11 +124,11 @@ a68c6de6ef36f81f3f3b18740c79b09583ed31f1 data/forge/tags/blocks/storage_blocks.j
 a151db122db32a3dc444955baf999d9208c94eae data/forge/tags/blocks/storage_blocks/silver.json
 24fa2b35b60c4282dc0d8d922a939572acb6fe7a data/forge/tags/blocks/used_torch.json
 fd0d12ed7a04a1e12aa60ecea84089faaa3e27b7 data/forge/tags/blocks/used_wall_torch.json
-2a11196c80a0616eeecfb9e71733ac42f4836928 data/forge/tags/items/burnt_out_torch.json
+772f9e15c9031d8932f23c5f7ef0d12d90034bab data/forge/tags/items/burnt_out_torch.json
 5683d07e8f21f8e8fb5f994c027f24c4ad9d3c5e data/forge/tags/items/charged_dynamite.json
 92c74d0c59ad63c1f1131045b3faae9e8a3c5e0f data/forge/tags/items/dirt_pile.json
 c59f20375f8d12836a6a7760c7012d7f99019cb3 data/forge/tags/items/dynamite.json
-64274a31e356de6ef7682ca2dbc872ab73183ff9 data/forge/tags/items/flimsy_torch.json
+18ba718e4056a9b167d499dd0a0de0e5ae55551a data/forge/tags/items/flimsy_torch.json
 6aca82e8ad81198ae376ca71b9429dcaa8ebf33b data/forge/tags/items/ingots.json
 ea3eec6d58f5f3ba71a2851c2107f1237f366182 data/forge/tags/items/ingots/silver.json
 be7764067497bcfa6880345c911a3e50df5940ca data/forge/tags/items/ores.json
@@ -159,7 +155,7 @@ e7df6769bb0f45b06fe983e2b0af6f8a37ec202d data/forge/tags/items/ores/lapis/sturdy
 f60b592213d3e8a7ec31bdc686be8c6f39d050af data/forge/tags/items/ores/redstone/solid_redstone.json
 45509a8bb5f0d8c0b7d44919cb0ef948ce0e4d49 data/forge/tags/items/ores/silver.json
 cfc9ff20e34225ff7a7321143832fa47c8add261 data/forge/tags/items/pebble.json
-c4bca0aaf7b01d15b4856240c7e49b1efb69e35d data/forge/tags/items/smoldering_torch.json
+24848591b89d39bd053d207f3162abdf95ba457a data/forge/tags/items/smoldering_torch.json
 ec2ec101da61ef71e0d37015885832d22c0bbeb3 data/forge/tags/items/stone.json
 c281ad2ac5d2f272bde5f3884eb8a4fc86af6daf data/forge/tags/items/stone/hard_stone.json
 f9b9bc0e3c197763f0e34da9f88d96f91510ad63 data/forge/tags/items/stone/loose_stone.json
@@ -167,4 +163,4 @@ f9b9bc0e3c197763f0e34da9f88d96f91510ad63 data/forge/tags/items/stone/loose_stone
 01a5c68694a708bdaf89a81c15e8b9d5770fd081 data/forge/tags/items/stone/sturdy_stone.json
 a68c6de6ef36f81f3f3b18740c79b09583ed31f1 data/forge/tags/items/storage_blocks.json
 a151db122db32a3dc444955baf999d9208c94eae data/forge/tags/items/storage_blocks/silver.json
-3bd5d43a71b78a5cc42155c611db43c233321b30 data/forge/tags/items/used_torch.json
+24fa2b35b60c4282dc0d8d922a939572acb6fe7a data/forge/tags/items/used_torch.json

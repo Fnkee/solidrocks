@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:recipes/root",
+  "parent": "solidrocks:recipes/root",
   "rewards": {
     "recipes": [
       "solidrocks:dynamite"

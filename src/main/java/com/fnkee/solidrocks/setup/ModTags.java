@@ -102,10 +102,10 @@ public class ModTags {
 		public static final ITag.INamedTag<Item> USED_TORCH = forge("used_torch");
 		public static final ITag.INamedTag<Item> SMOLDERING_TORCH = forge("smoldering_torch");
 		public static final ITag.INamedTag<Item> BURNT_OUT_TORCH = forge("burnt_out_torch");
-		public static final ITag.INamedTag<Item> FLIMSY_WALL_TORCH = forge("flimsy_torch");
-		public static final ITag.INamedTag<Item> USED_WALL_TORCH = forge("used_torch");
-		public static final ITag.INamedTag<Item> SMOLDERING_WALL_TORCH = forge("smoldering_torch");
-		public static final ITag.INamedTag<Item> BURNT_OUT_WALL_TORCH = forge("burnt_out_torch");
+		//public static final ITag.INamedTag<Item> FLIMSY_WALL_TORCH = forge("flimsy_wall_torch");
+		//public static final ITag.INamedTag<Item> USED_WALL_TORCH = forge("used_wall_torch");
+		//public static final ITag.INamedTag<Item> SMOLDERING_WALL_TORCH = forge("smoldering_wall_torch");
+		//public static final ITag.INamedTag<Item> BURNT_OUT_WALL_TORCH = forge("burnt_out_wall_torch");
 		public static final ITag.INamedTag<Item> PEBBLE = forge("pebble");
 		public static final ITag.INamedTag<Item> DIRT_PILE = forge("dirt_pile");
 		public static final ITag.INamedTag<Item> INGOTS_SILVER = forge("ingots/silver");

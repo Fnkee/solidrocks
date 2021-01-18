@@ -55,10 +55,10 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 		copy(ModTags.Blocks.USED_TORCH, ModTags.Items.USED_TORCH);
 		copy(ModTags.Blocks.SMOLDERING_TORCH, ModTags.Items.SMOLDERING_TORCH);
 		copy(ModTags.Blocks.BURNT_OUT_TORCH, ModTags.Items.BURNT_OUT_TORCH);
-		copy(ModTags.Blocks.FLIMSY_WALL_TORCH, ModTags.Items.FLIMSY_WALL_TORCH);
-		copy(ModTags.Blocks.USED_WALL_TORCH, ModTags.Items.USED_WALL_TORCH);
-		copy(ModTags.Blocks.SMOLDERING_WALL_TORCH, ModTags.Items.SMOLDERING_WALL_TORCH);
-		copy(ModTags.Blocks.BURNT_OUT_WALL_TORCH, ModTags.Items.BURNT_OUT_WALL_TORCH);
+		//copy(ModTags.Blocks.FLIMSY_WALL_TORCH, ModTags.Items.FLIMSY_WALL_TORCH);
+		//copy(ModTags.Blocks.USED_WALL_TORCH, ModTags.Items.USED_WALL_TORCH);
+		//copy(ModTags.Blocks.SMOLDERING_WALL_TORCH, ModTags.Items.SMOLDERING_WALL_TORCH);
+		//copy(ModTags.Blocks.BURNT_OUT_WALL_TORCH, ModTags.Items.BURNT_OUT_WALL_TORCH);
 		
 		//Categories
 		copy(Tags.Blocks.ORES, Tags.Items.ORES);

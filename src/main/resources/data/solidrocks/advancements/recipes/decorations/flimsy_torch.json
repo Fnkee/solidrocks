@@ -2,16 +2,16 @@
   "parent": "solidrocks:recipes/root",
   "rewards": {
     "recipes": [
-      "solidrocks:charged_dynamite"
+      "solidrocks:flimsy_torch"
     ]
   },
   "criteria": {
-    "has_redstone": {
+    "has_coal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:redstone"
+            "item": "minecraft:coal"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "solidrocks:charged_dynamite"
+        "recipe": "solidrocks:flimsy_torch"
       }
     }
   },
   "requirements": [
     [
-      "has_redstone",
+      "has_coal",
       "has_the_recipe"
     ]
   ]
