@@ -1,3 +1,6 @@
 {
-  "parent": "solidrocks:block/smoldering_torch"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "solidrocks:block/smoldering_torch"
+  }
 }

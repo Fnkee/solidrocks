@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "solidrocks:flimsy_torch",
-    "solidrocks:flimsy_wall_torch"
+    "solidrocks:flimsy_torch"
   ]
 }

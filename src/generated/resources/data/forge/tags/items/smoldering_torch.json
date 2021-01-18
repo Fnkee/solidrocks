@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "solidrocks:smoldering_torch",
-    "solidrocks:smoldering_wall_torch"
+    "solidrocks:smoldering_torch"
   ]
 }

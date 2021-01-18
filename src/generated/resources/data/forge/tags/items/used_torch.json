@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "solidrocks:used_torch",
-    "solidrocks:used_wall_torch"
+    "solidrocks:used_torch"
   ]
 }

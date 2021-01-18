@@ -1,3 +1,6 @@
 {
-  "parent": "solidrocks:block/flimsy_torch"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "solidrocks:block/flimsy_torch"
+  }
 }
